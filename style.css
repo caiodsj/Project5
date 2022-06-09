@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-color: #E5E5E5;
+    height: 100%;
+}
+.menu{
+    display: flex;
+    padding: 3% 0;
+    height: 8rem;
+    width: 100%;
+    justify-content: space-around;
+    justify-content: space-between;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 120px;
+    height: 40px;
+    outline: 0;
+    position: relative;
+}
+input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+    background-color: white;
+    padding: 0 0.8rem;
+}
+#logo{
+    display: flex;
+    flex:10%;
+    justify-content: center;
+}
+#menu{
+    display: flex;
+    flex:65%;
+    justify-content: space-around;
+    margin: 0 4rem;
+    
+}
+#linkMenu{transition: 0.3s;}
+#linkMenu:hover{
+    color: #FF0000;
+    transition: 0.25s;
+}
+#input{
+    display: flex;
+    flex: 15%;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+}
+#cart{
+    display: flex;
+    flex: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: auto;
+}
+.item{
+    display: flex;
+    gap: 4rem;
+    padding-top: 100px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #9C9696;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+#comprar{
+    display: flex;
+    justify-content: center;
+    background-color: #FF0000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    width: 250px;
+    height: 60px;
+    transition: 0.3s;
+}
+#comprar:hover{
+    transition: 0.3s;
+    background-color: #37a149;
+    color: #1d0202;
+    border-radius: 10px;
+}
+#descriptionItem{
+    display: flex;
+    flex: 30%;
+    flex-direction: column;
+    margin-left: 7%;
+    padding-top: 7%;
+}
+#imgItem{
+    display: flex;
+    flex: 70%;
+    flex-direction: column;
+    background-color: #C4C4C4;
+    align-items: center;
+    margin-top: -100px;
+    padding-top: 180px;
+    padding-bottom: 30px;
+    
+}
+#imgsItem{
+    display: flex;
+    gap: 0.7rem;
+}
+#imgAmpliada{
+    height: auto;
+    width: 70%;
+}
+footer{
+    display: flex;
+    background-color:#E5E5E5;
+
+}
+#video{
+    display: flex;
+    flex: 1;
+}
+#socialmedia{
+    display: flex;
+    flex: 3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.buttonSocial{
+    background-color: #E5E5E5;
+}
+#facebook:hover{
+    transition: 0.3s;
+    color: #202eaa;
+}
+#instagram:hover{
+    transition: 0.3s;
+    color: #aa2075;
+}
+#youtube:hover{
+    transition: 0.3s;
+    color: #db0d0d;
+}
+#twitter:hover{
+    transition: 0.3s;
+    color: #3e7bd6;
+}
+#explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    
+}
+#explorebutton{
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    height: 140px;
+    background-color: #000000;
+    color: white;
+    font-size: 18px;
+}
